@@ -1,0 +1,50 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.ota-box{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(6,1fr);
+    background-color: rgba(201,80,45,255);
+    padding: 20px;
+    width: 1000px;
+    background-color: aqua;
+    grid-template-areas: 
+    "half half half "
+    "fourth fourth fourth fourth"
+    "third third third"
+    "full-width"
+    "sixth sixth sixth sixth sixth sixth"
+    "half half ";
+
+}
+.box{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    background-color:rgba(207,98,78,255) ;
+    border-radius: 5px;
+    border: 5px solid white;
+}
+.half{
+    grid-area: half;
+}
+.fourth{
+    grid-area: fourth;
+}
+.third{
+    grid-area: third;
+}
+.full-width{
+    grid-area: full-width;
+}
+.sixth{
+    grid-area: sixth;
+}
+.half{
+    grid-area: half;
+}
